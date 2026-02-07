@@ -1,0 +1,8 @@
+# Temporary directories.
+/solutions/*
+/bin/*
+/_MarketPlace/*
+/_Example/*
+
+# Log files
+*.log
