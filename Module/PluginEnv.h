@@ -8,7 +8,8 @@ namespace CryUltralight
 	class CUltralightRenderer;
 	class CUltralightView;
 	class CUltralightInput;
-
+	class CUltralightJavaScript;
+	
 	// Global plugin environment
 	struct SPluginEnv
 	{
@@ -23,6 +24,8 @@ namespace CryUltralight
 		CUltralightView*					pUltralightView = nullptr;
 
 		CUltralightInput*					pUltralightInput = nullptr;
+
+		CUltralightJavaScript*				pUltralightJavaScript = nullptr;
 	};
 
 	extern SPluginEnv* mEnv;

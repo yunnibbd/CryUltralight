@@ -1,6 +1,9 @@
 #include "StdAfx.h"
 #include "UltralightView.h" 
 #include "UltralightPlatformSettings.h"
+#include <CrySystem/ISystem.h>
+#include <CrySystem/File/ICryPak.h>
+#include <CrySystem/IProjectManager.h>
 
 namespace CryUltralight
 {

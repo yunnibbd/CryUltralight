@@ -8,6 +8,7 @@
 #include "ICryUltralightSystem.h"
 #include "UltralightView.h"
 #include "UltralightInput.h"
+#include "UltralightJavaScript.h"
 
 namespace CryUltralight
 {
@@ -21,6 +22,7 @@ public:
 	virtual void Initial(int width, int height) override;
 	virtual ICUltralightView* GetView() override { return mEnv->pUltralightView; };
 	virtual ICUltralightInput* GetInput() override { return mEnv->pUltralightInput; }
+	virtual ICUltralightJavaScript* GetJavaScriptContext() override { return mEnv->pUltralightJavaScript; }
 
 private:
 	int m_height = 0;
